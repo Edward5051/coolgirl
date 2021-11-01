@@ -1,0 +1,207 @@
+body {
+  background: #fff;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  color: #020202;
+  align-items: center;
+  align-content: center;
+  background: url("images/hwfanw_guy.png") repeat;
+  background-blend-mode: lighten;
+  background-position: center;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #ffffff;
+  text-shadow: 0 0 3px blanchedalmond;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+
+a {
+  color: #ed5f5e;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #e51b1a;
+  text-decoration: none;
+  outline: 0;
+}
+
+#navbar {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  opacity: 0.9;
+  height: 55px;
+  left: 0px;
+  text-align: center;
+  background: url("images/logo.png") #c01e1e 20px no-repeat;
+  background-blend-mode: lighten;
+  background-size: 50px;
+}
+
+#navbar span {
+  position: relative;
+  top: -8px;
+  left: -8px;
+}
+
+#home {
+  padding-top: 60px;
+}
+
+img {
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+  width: 100px;
+  box-shadow: 0 0 1px rgb(8, 8, 8);
+}
+
+#idiotca {
+  margin: auto;
+  width: 70%;
+  text-align: justify;
+}
+
+#idiota {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.blog-index {
+  padding: 60px 0;
+}
+.blog {
+  background-color: #f8f8f8;
+}
+.blog-post-info {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px 25px;
+  color: #999999;
+  font-size: 0.8em;
+  font-style: italic;
+}
+.blog-post-info .time {
+  float: left;
+}
+.blog-post-info .comments {
+  float: right;
+}
+.blog-post-info .comments a {
+  color: #999999;
+}
+.blog-post-info .comments a:hover {
+  color: #ed5f5e;
+}
+.blog-post-info i {
+  margin-right: 5px;
+}
+.blog-post-body {
+  padding: 15px 25px 25px;
+}
+.blog-post-body h4 {
+  text-transform: capitalize;
+  text-align: center;
+}
+.blog-post-body h4 a {
+  color: #5d5d5d;
+}
+.blog-post-body h4 a:hover {
+  color: #ed5f5e;
+}
+.blog-post-body a.read-more {
+  font-weight: 700;
+}
+
+#center {
+  margin: auto;
+  width: 30%;
+}
+
+#elem {
+  margin: auto;
+  width: 22%;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 3px antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+  position: relative;
+  width: 200px;
+  height: 70px;
+  left: -5;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 3px;
+  background-color: transparent;
+  color:#fff;
+  border: #540ec4;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.wave {
+  position: absolute;
+  background: rgb(255, 46, 46);
+  width: 92%;
+  height: 90%;
+  left: 0;
+  bottom: -100%;
+  transform: rotate(180deg);
+  line-height: 40px;
+  transition: bottom 1s;
+  z-index: -1;
+}
+
+.wave:nth-child(2) {
+  line-height: 30px;
+}
+
+.wave p {
+  font-size: 60px;
+  color: transparent;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(255, 46, 46);
+  text-decoration-line: underline;
+  animation: wave 1s linear infinite;
+}
+
+@keyframes wave  {
+  100%{
+    margin-left: -50%;
+  }
+}
+
+.btn:hover .wave{
+  bottom: 0;
+}
+
+#foot {
+  margin: auto;
+  width: 70%;
+  text-align: justify;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  justify-content: center;
+  text-shadow:1px 1px 3px #c01e1e;
+}
